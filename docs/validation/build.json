@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "status": "passed",
+  "tasks": [
+    ":app:assembleDebug",
+    ":app:assembleBenchmark",
+    ":benchmarks:assembleBenchmark",
+    ":app:testDebugUnitTest",
+    ":app:lintDebug"
+  ],
+  "apk": {
+    "package": "dev.mediflow.app",
+    "minSdk": 26,
+    "targetSdk": 36,
+    "debuggable": false,
+    "internetPermission": false,
+    "signatureVerified": true,
+    "signatureScheme": "v2",
+    "signing": "development certificate",
+    "bytes": 2026217,
+    "sha256": "7e0c64743575b53125c3d98c0c4b062870ebce9762de87304ca0b5c0bab3de40"
+  },
+  "physicalDeviceValidation": "not run",
+  "remoteWorkflow": "not run"
+}

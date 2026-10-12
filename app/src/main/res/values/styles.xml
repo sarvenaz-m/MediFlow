@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.MediFlow" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#F8F7F3</item>
+        <item name="android:colorAccent">#75609F</item>
+    </style>
+    <color name="launcher_background">#EDE7F5</color>
+</resources>

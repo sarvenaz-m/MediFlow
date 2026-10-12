@@ -1,0 +1,40 @@
+{
+  "errors": 0,
+  "issues": [
+    {
+      "id": "GradleDependency",
+      "severity": "Warning",
+      "message": "A newer version of com.google.dagger.hilt.android than 2.58 is available: 2.59.2"
+    },
+    {
+      "id": "NewerVersionAvailable",
+      "severity": "Warning",
+      "message": "A newer version of org.jetbrains.kotlin.jvm than 2.3.21 is available: 2.4.21"
+    },
+    {
+      "id": "NewerVersionAvailable",
+      "severity": "Warning",
+      "message": "A newer version of org.jetbrains.kotlin.plugin.serialization than 2.3.21 is available: 2.4.21"
+    },
+    {
+      "id": "NewerVersionAvailable",
+      "severity": "Warning",
+      "message": "A newer version of com.google.dagger:hilt-compiler than 2.58 is available: 2.60.1"
+    },
+    {
+      "id": "NewerVersionAvailable",
+      "severity": "Warning",
+      "message": "A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-test than 1.10.2 is available: 1.11.0"
+    },
+    {
+      "id": "NewerVersionAvailable",
+      "severity": "Warning",
+      "message": "A newer version of org.robolectric:robolectric than 4.16.1 is available: 4.17"
+    },
+    {
+      "id": "ObsoleteSdkInt",
+      "severity": "Warning",
+      "message": "This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`."
+    }
+  ]
+}

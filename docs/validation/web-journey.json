@@ -1,0 +1,40 @@
+{
+  "engine": "Chromium",
+  "source": "index.html via file://",
+  "checks": [
+    "Offline preview renders a fictional routine",
+    "Record, undo and reload preserve exact inventory",
+    "Skip and undo leave stock unchanged",
+    "Fractional medication validates and persists",
+    "Cabinet search and fractional refill",
+    "Backup exports real data and rejects an invalid restore",
+    "Dark appearance survives reload",
+    "Dialog traps keyboard focus and Escape closes it",
+    "Archive retains existing records",
+    "All destinations fit a 320px viewport",
+    "All destinations fit a 390px viewport",
+    "All destinations fit a 768px viewport",
+    "All destinations fit a 1024px viewport",
+    "All destinations fit a 1440px viewport",
+    "No remote requests or browser runtime errors"
+  ],
+  "accessibility": {
+    "standard": "Automated WCAG 2.1 A/AA checks with axe-core; not a manual certification",
+    "checkedStates": [
+      "Today · desktop · light",
+      "Medication editor",
+      "Cabinet · light",
+      "Settings · light",
+      "Today · dark",
+      "Insights · dark",
+      "Cabinet · dark",
+      "Settings · dark",
+      "Medication editor · dark",
+      "Today · mobile · light",
+      "Insights · mobile · light"
+    ],
+    "violations": []
+  },
+  "errors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,111 @@
+{
+  "environment": "JDK 17; Gradle 8.13; Robolectric Android API 35 for platform tests; Compose native host rendering",
+  "total": 50,
+  "failures": 0,
+  "suites": [
+    {
+      "module": "core/model",
+      "suite": "dev.mediflow.model.ScheduleEngineTest",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "localClockFollowsTravel",
+        "recordedDoseIsNotScheduledAgain",
+        "futureDosesDoNotReduceAdherence",
+        "homeZoneKeepsOriginalClock",
+        "archivedMedicineProducesNoReminders",
+        "springGapMovesForwardWithoutDroppingDose",
+        "weekdaySelectionIsHonored",
+        "travelDoesNotChangeOccurrenceIdentity",
+        "duplicateTimesAreRejected",
+        "endDateIsInclusive",
+        "autumnOverlapUsesFirstInstantOnly",
+        "dateLineTravelStillFindsHomeZoneDose",
+        "depletionForecastHonorsWeekdaysAndFractionalUnits",
+        "twoTimesHaveDistinctKeys",
+        "exactRangeBoundaryIsHalfOpen",
+        "malformedKeysNeverResolve"
+      ]
+    },
+    {
+      "module": "core/model",
+      "suite": "dev.mediflow.model.InventoryPolicyTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "takingConsumesStock",
+        "excessPrecisionRejected",
+        "quantitiesRoundTrip",
+        "skippingKeepsStock",
+        "overflowIsRejected",
+        "insufficientStockIsRejected",
+        "repeatedFractionalConsumptionNeverDrifts",
+        "negativeQuantityRejected",
+        "nonFiniteRejected",
+        "fractionalQuantityIsExact",
+        "changingTakenToSkippedRestoresStock",
+        "undoRestoresHistoricalQuantity"
+      ]
+    },
+    {
+      "module": "core/data",
+      "suite": "dev.mediflow.data.RoomRoutineRepositoryTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "sampleDatasetIsExplicitAndCannotOverwriteExistingData",
+        "skippedThenTakenConsumesOnce",
+        "staleEditorCannotOverwriteNewStock",
+        "undoRestoresOriginalQuantityAfterEditingDose",
+        "duplicateUndoIsHarmless",
+        "archiveRetainsHistoryButRemovesUpcomingDoses",
+        "duplicateTapsConsumeInventoryOnce",
+        "takingClearsSnooze",
+        "missingMedicationCannotBeRecorded",
+        "insufficientStockLeavesNoRecord",
+        "invalidBackupCannotEraseCurrentRoutine",
+        "backupRoundTripPreservesRecordsAndStock"
+      ]
+    },
+    {
+      "module": "core/reminders",
+      "suite": "dev.mediflow.reminders.PendingIntentIdentityTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "notificationAndActionHaveSeparateIdentities",
+        "identitiesDoNotCollideAcrossMedications",
+        "sameOccurrenceReusesPendingIntent"
+      ]
+    },
+    {
+      "module": "core/reminders",
+      "suite": "dev.mediflow.reminders.ReminderReconciliationTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "reconciliationIsIdempotentAndUsesExactIdleAlarmsWhenAllowed",
+        "exactPermissionDenialKeepsApproximateReminders",
+        "deniedNotificationsCancelPreviouslyScheduledAlarms",
+        "deliveredEntryIsRetainedUntilArchivedOrRecorded",
+        "disablingRemindersCancelsAlarmsAndPostedNotifications",
+        "snoozeReplacesOriginalAlarmAndInvalidSnoozeIsRemoved"
+      ]
+    },
+    {
+      "module": "app",
+      "suite": "dev.mediflow.app.NativeRoutineJourneyTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "sampleRoutineCanBeRecordedSearchedAndEdited"
+      ]
+    }
+  ]
+}

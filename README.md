@@ -6,6 +6,12 @@ A considered home for everyday medication routines. Native Kotlin and Jetpack Co
 
 **Android 8.0+ · Kotlin · Jetpack Compose · Room · Hilt · Coroutines · Material 3**
 
+<p align="center">
+  <a href="https://sarvenaz-m.github.io/MediFlow/">
+    <img src="assets/live-demo-button.svg" alt="Explore the MediFlow live demo" width="272" height="56">
+  </a>
+</p>
+
 MediFlow brings together a daily schedule, a medication cabinet, recorded history, and device reminders. It organizes the schedules people enter; it does not recommend treatments or calculate prescriptions.
 
 ## The experience
@@ -27,7 +33,7 @@ Native captures are rendered from the Compose interface in the automated Android
 ## Explore
 
 - **Android preview:** `downloads/MediFlow-1.0.0-preview.apk`, an optimized, development-signed build. This is a preview artifact, not a store distribution.
-- **Interactive companion:** open the included `index.html` in a browser. It is self-contained, including fonts, styling, scripts, and fictional sample data; it requires no server or account.
+- **Interactive companion:** [explore the live demo](https://sarvenaz-m.github.io/MediFlow/), or open the included `index.html` locally in a browser. It is self-contained, including fonts, styling, scripts, and fictional sample data; it requires no server or account.
 - The companion supports recording, undo, fractional stock, editing, archiving, themes, and compatible backup files. OS notifications run in the Android app. Browser settings remain separate from Android settings.
 
 ## Engineering decisions

@@ -1,0 +1,9 @@
+# Kotlin sources and Gradle Kotlin DSL.
+*.kt linguist-language=Kotlin
+*.kts linguist-language=Kotlin
+
+# Generated standalone bundle for the browser companion.
+/index.html linguist-generated=true linguist-detectable=false
+
+# Keep the browser companion separate from the native app's language statistics.
+/web/** linguist-detectable=false

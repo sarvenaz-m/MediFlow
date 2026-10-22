@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="56" viewBox="0 0 272 56" role="img" aria-labelledby="title desc">
+  <title id="title">Explore live demo</title>
+  <desc id="desc">Open the interactive MediFlow companion in your browser.</desc>
+  <defs>
+    <linearGradient id="lilac" x1="0" y1="0" x2="272" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D5795"/>
+      <stop offset="1" stop-color="#7B659F"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="271" height="55" rx="16" fill="url(#lilac)" stroke="#8B76AD"/>
+  <circle cx="29" cy="28" r="15" fill="#F8F7F3" fill-opacity=".16"/>
+  <path d="M26 21.5 35 28l-9 6.5Z" fill="#FFFFFF"/>
+  <text x="55" y="33.5" fill="#FFFFFF" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Explore live demo</text>
+  <path d="M244 22h7v7m0-7-10 10" fill="none" stroke="#F8F7F3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
